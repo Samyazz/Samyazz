@@ -8,6 +8,8 @@ Smaller things I've been working on:
 
 - [cloud-hypervisor#9135](https://github.com/cloud-hypervisor/cloud-hypervisor/pull/9135): separate burst rate and depth for the disk and network rate limiter, so a VM on a shared host can burst above its IOPS or bandwidth limit at a capped peak rate for a bounded time, without raising the bucket size and allowing bursts at full device speed (draft, waiting on the design discussion in #9134)
 - [convex-on-zerops](https://github.com/Samyazz/convex-on-zerops): self-hosted Convex backend and dashboard on Zerops, running the official binary without Docker
-- Terraform/OpenTofu and Alchemy provider pages for the [Zerops docs](https://github.com/zeropsio/docs/pulls?q=author%3ASamyazz)
+- [terraform-provider-zerops](https://github.com/zeropsio/terraform-provider-zerops): the Terraform and OpenTofu provider for Zerops, which I wrote
+- [alchemy](https://github.com/zeropsio/alchemy): the Zerops provider for Alchemy v2, also mine, covering projects, services, databases, storage and routing as TypeScript infrastructure-as-code
+- the provider pages for both in the [Zerops docs](https://github.com/zeropsio/docs/pulls?q=author%3ASamyazz)
 
 Also on Reddit as [u/Samyazz](https://www.reddit.com/user/Samyazz) and on X as [@samyazz_dev](https://x.com/samyazz_dev).
