@@ -10,6 +10,7 @@ Smaller things I've been working on:
 - [convex-on-zerops](https://github.com/Samyazz/convex-on-zerops): self-hosted Convex backend and dashboard on Zerops, running the official binary without Docker
 - [terraform-provider-zerops](https://github.com/zeropsio/terraform-provider-zerops): the Terraform and OpenTofu provider for Zerops, which I wrote
 - [alchemy](https://github.com/zeropsio/alchemy): the Zerops provider for Alchemy v2, also mine, covering projects, services, databases, storage and routing as TypeScript infrastructure-as-code
-- the provider pages for both in the [Zerops docs](https://github.com/zeropsio/docs/pulls?q=author%3ASamyazz)
+- [pulumi-zerops](https://github.com/zeropsio/pulumi-zerops): the Pulumi provider and WebApp component for Zerops, which I wrote as well, usable from Python, Go, .NET, Java, Node.js and YAML
+- the provider pages in the [Zerops docs](https://github.com/zeropsio/docs/pulls?q=author%3ASamyazz)
 
 Also on Reddit as [u/Samyazz](https://www.reddit.com/user/Samyazz) and on X as [@samyazz_dev](https://x.com/samyazz_dev).
